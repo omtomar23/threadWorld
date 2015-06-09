@@ -1,0 +1,33 @@
+2015/06/05 09:39:30.056 [ INFO] main (UserManagementImporterManager.java) - --------------------------IMPORT PROCESS START------------------------
+;2015/06/05 09:39:30.062 [ INFO] main (EntityParser.java) - Internal consistency start for importable entity id=1
+;2015/06/05 09:39:30.065 [ INFO] main (EntityParser.java) - Internal consistency finish for importable entity id=1 , status=SUCCESS
+;2015/06/05 09:39:30.065 [ INFO] main (EntityParser.java) - Internal consistency start for importable entity id=2
+;2015/06/05 09:39:30.068 [ INFO] main (EntityParser.java) - Internal consistency finish for importable entity id=2 , status=SUCCESS
+;2015/06/05 09:39:30.068 [ INFO] main (UserManagementImporterManager.java) - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>UserManagementConsistency start for importable entity id=1
+;2015/06/05 09:39:30.075 [ INFO] main (UserManagementValidatorManager.java) - checkConsistencyWithExistingData-Enter
+;2015/06/05 09:39:30.075 [ WARN] main (PermissionValidatorManager.java) - Permission already exist, permission=Permission [id=1, name=P1, applicationName=CM500] 
+;2015/06/05 09:39:30.075 [ WARN] main (PermissionGroupValidatorManager.java) - PermissionGroup already exist, permissionGroup=PermissionGroup [id=1, name=PG1, applicationName=CM500, permissionIds=[1]] 
+;2015/06/05 09:39:30.076 [ WARN] main (TaskGroupValidatorManager.java) - TaskGroup already exist, taskGroup=TaskGroup [id=1, name=TG1, applicationName=CM500, permissionGroupIds=[1]] 
+;2015/06/05 09:39:30.076 [ WARN] main (TaskGroupValidatorManager.java) - TaskGroup already exist, taskGroup=TaskGroup [id=1, name=TG1, applicationName=CM500, permissionGroupIds=[1]] 
+;2015/06/05 09:39:30.076 [ WARN] main (WorkplaceValidatorManager.java) - Workplace already exist, workplace=Workplace [id=1, name=WP1, applicationName=CM500, taskGroupIds=[1]] 
+;2015/06/05 09:39:30.076 [ INFO] main (UserManagementValidatorManager.java) - checkConsistencyWithExistingData-leave, isAnyEntityNeedToUpdated=true , for importable entity id=1
+;2015/06/05 09:39:30.076 [ INFO] main (UserManagementImporterManager.java) - UserManagementConsistency finish for importable entity id=1 ,result=Details of new entities come for importable entity id=1 ::Number of new Workplaces=2 ,Number of new TaskGroups=0 ,Number of new PermissionGroup=0 ,Number of new Permission=0
+;2015/06/05 09:39:30.077 [ INFO] main (UserManagementImporterManager.java) - Merging process start for importable entity id=1
+;2015/06/05 09:39:30.077 [ INFO] main (UserManagementImporterManager.java) - Merging process finish for importable entity id=1
+;2015/06/05 09:39:30.079 [ INFO] main (UserManagementImporterManager.java) - Updated userManagement::UserManagement [lastUsedWorkplaceId=3, lastUsedTaskGroupId=1, lastUsedPermissionGroupId=1, lastUsedPermissionId=1, workplaces=[Workplace [id=1, name=WP1, applicationName=CM500, taskGroupIds=[1]], Workplace [id=2, name=WP2, applicationName=CM500, taskGroupIds=[1]], Workplace [id=3, name=WP3, applicationName=CM500, taskGroupIds=[]]], taskGroups=[TaskGroup [id=1, name=TG1, applicationName=CM500, permissionGroupIds=[1]]], permissionGroups=[PermissionGroup [id=1, name=PG1, applicationName=CM500, permissionIds=[1]]], permissions=[Permission [id=1, name=P1, applicationName=CM500]]]
+;2015/06/05 09:39:30.079 [ INFO] main (UserManagementImporterManager.java) - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>UserManagementConsistency start for importable entity id=2
+;2015/06/05 09:39:30.079 [ INFO] main (UserManagementValidatorManager.java) - checkConsistencyWithExistingData-Enter
+;2015/06/05 09:39:30.080 [ WARN] main (PermissionValidatorManager.java) - Permission already exist, permission=Permission [id=1, name=P1, applicationName=CM500] 
+;2015/06/05 09:39:30.080 [ WARN] main (PermissionGroupValidatorManager.java) - PermissionGroup already exist, permissionGroup=PermissionGroup [id=1, name=PG1, applicationName=CM500, permissionIds=[1]] 
+;2015/06/05 09:39:30.080 [ WARN] main (TaskGroupValidatorManager.java) - TaskGroup already exist, taskGroup=TaskGroup [id=1, name=TG1, applicationName=CM500, permissionGroupIds=[1]] 
+;2015/06/05 09:39:30.080 [ WARN] main (TaskGroupValidatorManager.java) - TaskGroup already exist, taskGroup=TaskGroup [id=1, name=TG1, applicationName=CM500, permissionGroupIds=[1]] 
+;2015/06/05 09:39:30.080 [ WARN] main (WorkplaceValidatorManager.java) - Workplace already exist, workplace=Workplace [id=1, name=WP1, applicationName=CM500, taskGroupIds=[1]] 
+;2015/06/05 09:39:30.081 [ WARN] main (WorkplaceValidatorManager.java) - Workplace already exist, workplace=Workplace [id=2, name=WP2, applicationName=CM500, taskGroupIds=[1]] 
+;2015/06/05 09:39:30.081 [ INFO] main (UserManagementValidatorManager.java) - checkConsistencyWithExistingData-leave, isAnyEntityNeedToUpdated=false , for importable entity id=2
+;2015/06/05 09:39:30.081 [ INFO] main (UserManagementImporterManager.java) - UserManagementConsistency finish for importable entity id=2 ,result=Details of new entities come for importable entity id=2 ::Number of new Workplaces=0 ,Number of new TaskGroups=0 ,Number of new PermissionGroup=0 ,Number of new Permission=0
+;2015/06/05 09:39:30.081 [ INFO] main (UserManagementImporterManager.java) - Merging process start for importable entity id=2
+;2015/06/05 09:39:30.081 [ INFO] main (UserManagementImporterManager.java) - Nothing need to update for importable entity id=2
+;2015/06/05 09:39:30.081 [ INFO] main (UserManagementImporterManager.java) - Merging process finish for importable entity id=2
+;2015/06/05 09:39:30.082 [ INFO] main (UserManagementImporterManager.java) - Updated userManagement::UserManagement [lastUsedWorkplaceId=3, lastUsedTaskGroupId=1, lastUsedPermissionGroupId=1, lastUsedPermissionId=1, workplaces=[Workplace [id=1, name=WP1, applicationName=CM500, taskGroupIds=[1]], Workplace [id=2, name=WP2, applicationName=CM500, taskGroupIds=[1]], Workplace [id=3, name=WP3, applicationName=CM500, taskGroupIds=[]]], taskGroups=[TaskGroup [id=1, name=TG1, applicationName=CM500, permissionGroupIds=[1]]], permissionGroups=[PermissionGroup [id=1, name=PG1, applicationName=CM500, permissionIds=[1]]], permissions=[Permission [id=1, name=P1, applicationName=CM500]]]
+;2015/06/05 09:39:30.082 [ INFO] main (UserManagementImporterManager.java) - --------------------------IMPORT PROCESS FINISH WITH success::true , -------------
+;
